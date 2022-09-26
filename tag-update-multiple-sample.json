@@ -1,0 +1,54 @@
+{
+  "bulkEditOperations": [
+    {
+      "definedTags": {
+        "tagNamespace1": {
+          "tagKey1": "tagValue1",
+          "tagKey2": "tagValue2"
+        },
+        "tagNamespace2": {
+          "tagKey1": "tagValue1",
+          "tagKey2": "tagValue2"
+        }
+      },
+      "operationType": "string"
+    },
+    {
+      "definedTags": {
+        "tagNamespace1": {
+          "tagKey1": "tagValue1",
+          "tagKey2": "tagValue2"
+        },
+        "tagNamespace2": {
+          "tagKey1": "tagValue1",
+          "tagKey2": "tagValue2"
+        }
+      },
+      "operationType": "string"
+    }
+  ],
+  "compartmentId": "string",
+  "maxWaitSeconds": 0,
+  "resources": [
+    {
+      "id": "string",
+      "metadata": {
+        "string1": "string",
+        "string2": "string"
+      },
+      "resourceType": "string"
+    },
+    {
+      "id": "string",
+      "metadata": {
+        "string1": "string",
+        "string2": "string"
+      },
+      "resourceType": "string"
+    }
+  ],
+  "waitForState": [
+    "ACCEPTED|IN_PROGRESS|FAILED|SUCCEEDED|CANCELING|CANCELED"
+  ],
+  "waitIntervalSeconds": 0
+}

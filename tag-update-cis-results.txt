@@ -1,0 +1,27 @@
+oci iam tagging-work-request get --work-request-id ocid1.taggingworkrequest.oc1..aaaaaaaa46oobmqeqxcvgotuj3frh2fuxqktxor23cqes3fb3dap4wjymfeq
+{
+  "data": {
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaa56cet4engnkah7pnrtljo3h55slitvhpmln4lpsi7toeri3qoeqq",
+    "id": "ocid1.taggingworkrequest.oc1..aaaaaaaa46oobmqeqxcvgotuj3frh2fuxqktxor23cqes3fb3dap4wjymfeq",
+    "operation-type": "BULK_EDIT_OF_TAGS",
+    "percent-complete": 100.0,
+    "resources": [
+      {
+        "action-type": "UPDATED",
+        "entity-type": "boot-volumes",
+        "entity-uri": "https://iaas.us-phoenix-1.oraclecloud.com/20160918/bootVolumes/ocid1.bootvolume.oc1.phx.abyhqljtjmpf55eh57z73fj7hfgcox3fohw6yaj3qggryamf23dwqkaagr4a",
+        "identifier": "ocid1.bootvolume.oc1.phx.abyhqljtjmpf55eh57z73fj7hfgcox3fohw6yaj3qggryamf23dwqkaagr4a"
+      },
+      {
+        "action-type": "UPDATED",
+        "entity-type": "instances",
+        "entity-uri": "https://iaas.us-phoenix-1.oraclecloud.com/20160918/instances/ocid1.instance.oc1.phx.anyhqljtytsgwaycbkw5karymvcguqxbhx3buztcjjl33vberu62f5ysadca",
+        "identifier": "ocid1.instance.oc1.phx.anyhqljtytsgwaycbkw5karymvcguqxbhx3buztcjjl33vberu62f5ysadca"
+      }
+    ],
+    "status": "SUCCEEDED",
+    "time-accepted": "2022-09-26T17:58:00.164000+00:00",
+    "time-finished": "2022-09-26T17:58:37.607000+00:00",
+    "time-started": "2022-09-26T17:58:37.523000+00:00"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "bulkEditOperations": [
+    {
+      "definedTags": {
+        "CIS235-namesp": {
+          "CreatedBy": "me!!"
+        }
+      },
+      "operationType": "ADD_OR_SET"
+    }
+  ],
+  "maxWaitSeconds": 0,
+  "resources": [
+    {
+      "id": "ocid1.instance.oc1.phx.anyhqljtytsgwaycbkw5karymvcguqxbhx3buztcjjl33vberu62f5ysadca",
+      "resourceType": "Instance"
+    },
+    {
+      "id": "ocid1.bootvolume.oc1.phx.abyhqljtjmpf55eh57z73fj7hfgcox3fohw6yaj3qggryamf23dwqkaagr4a",
+      "resourceType": "BootVolume"
+    },
+    {
+      "id": "ocid1.vcn.oc1.phx.amaaaaaaytsgwayay4blhynemcmccg7z7m53pkkqojw6dg3zdzqidytgo62a",
+      "resourceType": "Vcn"
+    }
+  ],
+  "waitForState": [
+    "IN_PROGRESS"
+  ],
+  "waitIntervalSeconds": 0
+}
